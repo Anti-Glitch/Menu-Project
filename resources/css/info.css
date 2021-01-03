@@ -23,7 +23,13 @@
 }
 
 .Menu-Button {
+    width: 90px;
+    height: 45px;
     border-radius: 0px;
+}
+
+.Selector-Buttons {
+    text-align: right;
 }
 
 .item-heading{

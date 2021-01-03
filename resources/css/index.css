@@ -4,6 +4,7 @@
 }
 
 ul {
+    border: 1px solid #555;
     position: fixed;
     font-size: 17px;
     list-style-type: none;
@@ -14,11 +15,16 @@ ul {
     background-color: #f1f1f1;
 }
 
+.li :last-child{
+    border-bottom: none;
+}
+
 li a {
+    border-bottom: 1px solid #555;
     text-align: center;
     display: block;
     color: #000;
-    padding: 8.25px 16px;
+    padding: 8.88px 16px;
     text-decoration: none;
 }
 
@@ -36,22 +42,26 @@ li a:hover {
     color: red;
     text-align: center;
     font-family: Brush Script MT, Brush Script Std, cursive;
+    padding-left: 125px;
 }
 
 .title2 {
     padding-top: 25px;
     font-size: 100px;
     text-align: center;
+    padding-left: 125px;
 }
 
 .Info-Button a{
-    text-align: right;
+    text-align: center;
     text-decoration: none;
     font-size: 30px;
     color: black;
 }
 
 .Info-Button {
+    height: 40px;
+    width: 65px;
     text-align: right;
     position: center;
     border-radius: 0px;
@@ -60,19 +70,23 @@ li a:hover {
 .item-heading{
     font-size: 50px;
     padding-top: 100px;
+    padding-left: 125px;
 }
 
 .item-heading1{
     font-size: 50px;
+    padding-left: 125px;
 }
 
 .item-heading2 {
     font-size: 50px;
     padding-bottom: 50px;
+    padding-left: 125px;
 }
 
 .item-subheading{
     font-size: 20px;
+    padding-left: 125px;
 }
 
 .Menu {
@@ -81,24 +95,24 @@ li a:hover {
 
 .appetizers table tr td{
     font-size: 20px;
-    padding-right: 225px;
-    padding-left: 225px;
+    padding-right: 175px;
+    padding-left: 300px;
     padding-top: 35px;
     font-weight: bolder;
 }
 
 .Chow-Mein table tr td{
     font-size: 20px;
-    padding-right: 275px;
-    padding-left: 275px;
+    padding-right: 250px;
+    padding-left: 325px;
     padding-top: 35px;
     font-weight: bolder;
 }
 
 .Mei-Fun table tr td{
     font-size: 20px;
-    padding-right: 275px;
-    padding-left: 250px;
+    padding-right: 225px;
+    padding-left: 325px;
     padding-top: 35px;
     font-weight: bolder;
 }
@@ -106,108 +120,110 @@ li a:hover {
 .chicken table tr td{
     font-size: 20px;
     padding-right: 275px;
-    padding-left: 225px;
+    padding-left: 250px;
     padding-top: 35px;
     font-weight: bolder;
 }
 
 .Roast-Pork table tr td{
     font-size: 20px;
-    padding-right: 275px;
-    padding-left: 225px;
+    padding-right: 175px;
+    padding-left: 275px;
     padding-top: 35px;
     font-weight: bolder;
 }
 
 .beef table tr td{
     font-size: 20px;
-    padding-right: 275px;
-    padding-left: 225px;
+    padding-right: 150px;
+    padding-left: 325px;
     padding-top: 35px;
     font-weight: bolder;
 }
 
 .shrimp table tr td{
     font-size: 20px;
-    padding-right: 275px;
-    padding-left: 225px;
+    padding-right: 175px;
+    padding-left: 300px;
     padding-top: 35px;
     font-weight: bolder;
 }
 
 .specialties table tr td{
     font-size: 20px;
-    padding-right: 275px;
-    padding-left: 225px;
+    padding-right: 175px;
+    padding-left: 300px;
     padding-top: 35px;
     font-weight: bolder;
 }
 
 #description {
     padding-left: 225px;
-    padding-right: 215px;
+    padding-right: 90px;
 }
 
 .health-food table tr td{
     font-size: 20px;
-    padding-right: 275px;
-    padding-left: 225px;
+    padding-right: 200px;
+    padding-left: 300px;
     padding-top: 35px;
     font-weight: bolder;
 }
 
 .specials table tr td{
     font-size: 20px;
-    padding-right: 550px;
-    padding-left: 550px;
+    padding-right: 0px;
+    padding-left: 600px;
     padding-top: 35px;
     font-weight: bolder;
 }
 
 .Lo-Mein table tr td{
     font-size: 20px;
-    padding-right: 275px;
-    padding-left: 250px;
+    padding-right: 225px;
+    padding-left: 325px;
     padding-top: 35px;
     font-weight: bolder;
 }
 
 .Vegetarian table tr td{
     font-size: 20px;
-    padding-right: 300px;
-    padding-left: 200px;
+    padding-right: 240px;
+    padding-left: 240px;
     padding-top: 35px;
     font-weight: bolder;
 }
 
 .Egg-Foo-Young table tr td{
     font-size: 20px;
-    padding-right: 300px;
-    padding-left: 275px;
+    padding-right: 290px;
+    padding-left: 290px;
     padding-top: 35px;
     font-weight: bolder;
 }
 
 .soup table tr th {
     font-size: 35px;
+    padding-left: 125px;
 }
 
 .soup table tr td{
     font-size: 20px;
-    padding-right: 175px;
-    padding-left: 175px;
+    padding-right: 100px;
+    padding-left: 225px;
     padding-top: 35px;
     font-weight: bolder;
 }
 
 .Fried-Rice table tr th {
     font-size: 35px;
+    padding-left: 125px;
 }
 
 .Fried-Rice tr td{
     font-size: 20px;
-    padding-right: 175px;
-    padding-left: 175px;
+    padding-right: 100px;
+    padding-left: 225px;
     padding-top: 35px;
     font-weight: bolder;
 }
@@ -224,6 +240,10 @@ body {
 }
 
 .food-img {
+    padding-left: 125px;
+}
+
+.food-img img {
     border-radius: 50%;
 }
 
@@ -231,4 +251,3 @@ body {
     background-color: rgba(255,255,255,0.6);
     text-align: center;
 }
-
