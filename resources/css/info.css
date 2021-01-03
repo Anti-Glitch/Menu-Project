@@ -1,0 +1,78 @@
+.styleless {
+    text-decoration-style: none;
+    color: black;
+}
+
+.title {
+    font-size: 100px;
+    color: red;
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.title2 {
+    padding-top: 25px;
+    font-size: 100px;
+    text-align: center;
+}
+
+.Menu-Button a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.Menu-Button {
+    border-radius: 0px;
+}
+
+.item-heading{
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.item-heading1{
+    font-size: 50px;
+}
+
+.item-heading2 {
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+.item-subheading{
+    font-size: 20px;
+}
+
+p {
+    font-size: 30px;
+}
+
+p p{
+    font-size: 30px;
+}
+
+.Menu {
+    text-align: center;
+}
+
+body {
+    background-image: url(../images/Bamboo.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.spicy {
+    color: red;
+}
+
+.food-img {
+    border-radius: 50%;
+}
+
+.Menu{
+    background-color: rgba(255,255,255,0.6);
+    text-align: center;
+}
+
